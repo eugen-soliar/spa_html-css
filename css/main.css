@@ -1,3 +1,5 @@
+
+
 body {
     box-sizing: border-box;
 
@@ -9,6 +11,7 @@ li {
 }
 
 ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;   
 }
@@ -94,4 +97,51 @@ section {
 .hero-button:hover {
     background-color: #3e79f0;
     cursor:pointer;
+}
+
+.services {
+    background-color: white;
+    padding-top: 110px;
+}
+
+.services-header {
+    font-family: Montserrat, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #323232;
+    text-align: center;
+}
+
+.services-text {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: center;
+}
+
+.services-list {
+    display: flex;
+    gap: 27px;
+}
+
+.services-list-item {
+    display: flex;
+}
+
+.services-list-item-image-border {
+    border: 1px solid #e0e0e0;
+    position: absolute;
+    border-radius: 50%;
+    width: 110px;
+    aspect-ratio: 1/1;
+}
+
+.services-list-item-image {
+    border: 1px solid #4985FF;
+    
+    border-radius: 50%;
+    width: 90px;
+}
+.services-list-item-group {
+    margin-left: 128px;
 }
