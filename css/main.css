@@ -18,6 +18,19 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
 section {
   padding-inline: 402px;
 }
@@ -148,6 +161,7 @@ section {
 
 .services-list-item-image {
   display: flex;
+
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
@@ -160,7 +174,6 @@ section {
 
   border-radius: 50%;
   aspect-ratio: 1/1;
-  /* background: url("../img/icon.svg") no-repeat center ; */
 }
 
 .services-list-item-group {
