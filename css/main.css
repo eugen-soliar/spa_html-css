@@ -32,7 +32,7 @@ h6 {
 }
 
 section {
-  padding-inline: 402px;
+  padding: 110px 402px;
 }
 
 .header {
@@ -68,6 +68,8 @@ section {
   background-repeat: no-repeat;
 
   height: 900px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .hero-header {
@@ -111,7 +113,6 @@ section {
 
 .services {
   background-color: white;
-  padding-top: 110px;
 
   display: flex;
   flex-direction: column;
