@@ -299,6 +299,97 @@ section {
     line-height: 1.6;
     color: #999999;
 }
+
 .high-standards-project-list-item-image {
     height: fit-content;
 }
+
+.our-services {
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+}
+
+.our-services-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-services-header {
+    font-family: Montserrat, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: white;
+}
+
+.our-services-button {
+    padding: 13px 36px;
+    border-radius: 30px;
+  
+    background-color: #4985ff;
+    border: none;
+  
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+  
+.our-services-button:hover {
+    background-color: #3e79f0;
+    cursor: pointer;
+}
+
+.our-services-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+
+    margin-top: 72px;
+}
+
+.our-services-list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.our-services-list-item-header-wrapper {
+    display: flex;
+    flex-direction: row;
+
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+}
+
+.our-services-list-item-number-mark {
+    font-size: 18px;
+    color:#4985FF;
+}
+
+.our-services-list-item-header {
+    font-size: 18px;
+    color: #000;
+}
+
+.our-services-list-item-text {
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    line-height: 1.6; 
+    color: #999;
+}
+
+.our-services-list-item-link {
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    color: #4985FF;
+    text-decoration: underline;
+}
+
+
