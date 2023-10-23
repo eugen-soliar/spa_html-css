@@ -456,3 +456,68 @@ section {
   background-color: #3e79f0;
   cursor: pointer;
 }
+
+.presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-image: url("../img/Rectangle\ 5.jpg");
+  background-repeat: no-repeat;
+  padding-top: 72px;
+}
+
+.presentation-header {
+  font-family: Montserrat, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+}
+
+.presentation-text {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: white;
+
+  margin-top: 32px;
+}
+
+.presentation-video-container {
+  margin-top: 72px;
+}
+
+.presentation-video {
+  border-radius: 12px;
+}
+
+.subscribe-divider {
+  border-top: 1px solid #E0E0E0;
+  height: 0;
+  margin-top: 84px;
+  width: 100%;
+}
+
+.subscribe-header {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+
+  margin-top: 84px;
+}
+
+.subscribe-subtitle {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+
+  margin-top: 20px;
+}
+
+
+
