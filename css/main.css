@@ -32,7 +32,18 @@ h6 {
 }
 
 section {
-  padding: 110px 402px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.button--center {
+  margin: 0 auto;
+}
+
+.container {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header {
@@ -64,7 +75,7 @@ section {
   justify-content: center;
   flex-direction: column;
 
-  background-image: url("../img/Rectangle.jpg");
+  background-image: url('../img/Rectangle.jpg');
   background-repeat: no-repeat;
 
   height: 900px;
@@ -198,16 +209,18 @@ section {
 }
 
 .services-button {
-  padding: 13px 36px;
-  border-radius: 30px;
-
-  background-color: #4985ff;
-  border: none;
+  display: block;
 
   font-family: Montserrat, sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: white;
+
+  padding: 13px 36px;
+  border-radius: 30px;
+
+  background-color: #4985ff;
+  border: none;
 }
 
 .services-button:hover {
@@ -216,25 +229,27 @@ section {
 }
 
 .high-standards {
+  background-color: #f6f6f8;
+  padding-bottom: 72px;
+}
+
+.high-standards .container {
   display: flex;
   flex-direction: column;
   gap: 72px;
-  background-color: #f6f6f8;
-
-  padding-bottom: 72px;
 }
 
 .high-standards-content {
   display: flex;
-
   align-items: center;
-  gap: 120px;
+  justify-content: space-between;
 }
 
 .high-standards-text-container {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  width: 492px;
 }
 
 .high-standards-header {
@@ -344,9 +359,9 @@ section {
 
 .our-services-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  /* gap: 30px; */
 
   margin-top: 72px;
 }
@@ -355,7 +370,9 @@ section {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  width: 350px;
 }
+
 .our-services-list-item-header-wrapper {
   display: flex;
   flex-direction: row;
@@ -394,19 +411,21 @@ section {
 
 .our-services-divider {
   border-top: 1px solid #e0e0e0;
-  height:0;
+  height: 0;
   width: 100%;
   margin-top: 85px;
 }
 
 .our-projects {
+  background-color: #f6f6f8;
+}
+
+.our-projects .container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 76px;
-  
-  background-color: #f6f6f8;
 }
 
 .our-projects-header {
@@ -426,9 +445,6 @@ section {
   color: grey;
 
   width: 750px;
-  height: 40px;
-
-  margin-bottom: 70px;
 }
 
 .our-projects-list {
@@ -436,10 +452,10 @@ section {
   justify-content: center;
   align-items: center;
   gap: 30px;
-
 }
 
 .our-projects-button {
+  display: block;
   padding: 13px 36px;
   border-radius: 30px;
 
@@ -458,14 +474,23 @@ section {
 }
 
 .presentation {
+  background-image: url('../img/Rectangle\ 5.jpg');
+  background-repeat: no-repeat;
+  padding-top: 72px;
+}
+
+.presentation .container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 72px;
+}
 
-  background-image: url("../img/Rectangle\ 5.jpg");
-  background-repeat: no-repeat;
-  padding-top: 72px;
+.presentation-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .presentation-header {
@@ -494,10 +519,15 @@ section {
 }
 
 .subscribe-divider {
-  border-top: 1px solid #E0E0E0;
+  border-top: 1px solid #e0e0e0;
   height: 0;
-  margin-top: 84px;
   width: 100%;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .subscribe-header {
@@ -506,8 +536,6 @@ section {
   font-weight: 700;
   color: black;
   text-align: center;
-
-  margin-top: 84px;
 }
 
 .subscribe-subtitle {
@@ -518,7 +546,6 @@ section {
 
   margin-top: 20px;
 }
-
 
 .subscribe-button {
   padding: 13px 36px;
@@ -561,7 +588,7 @@ section {
   margin-top: 30px;
 }
 
-.subscribe-subtext{
+.subscribe-subtext {
   font-family: Montserrat, sans-serif;
   font-size: 13px;
   font-weight: 400;
@@ -572,7 +599,7 @@ section {
 }
 
 .footer {
-  background-color: #F6F6F8;
+  background-color: #f6f6f8;
   padding-top: 70px;
   padding-inline: 404px;
 }
@@ -581,7 +608,6 @@ section {
   display: flex;
   justify-content: space-between;
   gap: 44px;
-
 }
 
 .footer-contact-list {
@@ -654,10 +680,9 @@ section {
   font-family: Montserrat, sans-serif;
   font-size: 13px;
   font-weight: 400;
-  line-height: 1.6; 
+  line-height: 1.6;
   color: #999;
   text-align: center;
-  
 
   margin-left: 405px;
 }
