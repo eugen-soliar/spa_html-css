@@ -520,4 +520,144 @@ section {
 }
 
 
+.subscribe-button {
+  padding: 13px 36px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
 
+  background-color: #4985ff;
+  border: none;
+
+  width: 190px;
+
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
+.subscribe-button:hover {
+  background-color: #3e79f0;
+  cursor: pointer;
+}
+
+.subscribe-text-input {
+  padding: 13px 36px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+
+  border: none;
+  width: 300px;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #999;
+}
+
+#subscribe-form {
+  box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+
+  margin-top: 30px;
+}
+
+.subscribe-subtext{
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #999;
+
+  margin-top: 35px;
+}
+
+.footer {
+  background-color: #F6F6F8;
+  padding-top: 70px;
+  padding-inline: 404px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 44px;
+
+}
+
+.footer-contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-contact-header {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.footer-contact-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  gap: 10px;
+
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999;
+  line-height: 1.6;
+}
+
+.footer-other-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-other-header {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.footer-other-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  gap: 10px;
+
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999;
+  line-height: 1.6;
+}
+
+.footer-other-list-item a {
+  color: gray;
+}
+
+.footer-divider {
+  border-top: 1px solid #e0e0e0;
+  height: 0;
+
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.footer-rights {
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.6; 
+  color: #999;
+  text-align: center;
+  
+
+  margin-left: 405px;
+}
