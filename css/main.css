@@ -54,19 +54,27 @@ section {
 }
 
 .header-navigation {
-  padding-top: 40px;
+  display: flex;
+  align-items: center;
+
   margin-left: 932px;
-  padding-bottom: 40px;
+  height: 100px;
 }
 
 .header-navigation a {
   color: white;
   font-family: Montserrat, sans-serif;
   font-size: 16px;
+  text-align: center;
+
+  width: 120px;
+  padding-top: 40px;
+  padding-bottom:40px;
+
 }
 
-.header-navigation :not(:last-child) {
-  margin-right: 40px;
+.header-navigation a:hover {
+  border-bottom: 3px solid lightgrey;
 }
 
 .hero {
@@ -601,7 +609,6 @@ section {
 .footer {
   background-color: #f6f6f8;
   padding-top: 70px;
-  padding-inline: 404px;
 }
 
 .footer-list {
@@ -685,4 +692,5 @@ section {
   text-align: center;
 
   margin-left: 405px;
+  margin-bottom: 10px;
 }
